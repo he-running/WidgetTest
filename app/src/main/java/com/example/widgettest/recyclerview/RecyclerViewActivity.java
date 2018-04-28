@@ -66,10 +66,10 @@ public class RecyclerViewActivity extends AppCompatActivity {
         for (int i = 0; i < 20; i++) {
             Book book = new Book();
             if (i % 2 != 0) {
-                book.setImg(R.mipmap.odd);
+                book.setImg(R.mipmap.ic_odd);
                 book.setName("宇宙世界");
             } else {
-                book.setImg(R.mipmap.even);
+                book.setImg(R.mipmap.ic_even);
                 book.setName("海底世界");
             }
             bookList.add(book);
